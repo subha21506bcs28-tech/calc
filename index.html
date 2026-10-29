@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Calc</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="calculator">
+    <div class="face" aria-label="Cute smiling face">
+      <span class="eye left-eye"></span>
+      <span class="eye right-eye"></span>
+      <span class="cheek left-cheek"></span>
+      <span class="cheek right-cheek"></span>
+      <span class="smile"></span>
+    </div>
+
+    <h1>I'm Your Companion</h1>
+    <p class="subtitle"></p> Every BIG answer begin with a small calculation♡</p>
+
+    <div class="screen" aria-live="polite">
+      <div id="expression" class="expression"></div>
+      <div id="display" class="display">0</div>
+    </div>
+
+    <div class="buttons">
+      <button type="button" class="special" data-action="clear">AC</button>
+      <button type="button" class="special" data-action="delete">DEL</button>
+      <button type="button" class="operator" data-value="(">(</button>
+      <button type="button" class="operator" data-value=")">)</button>
+
+      <button type="button" data-value="7">7</button>
+      <button type="button" data-value="8">8</button>
+      <button type="button" data-value="9">9</button>
+      <button type="button" class="operator" data-value="/">÷</button>
+
+      <button type="button" data-value="4">4</button>
+      <button type="button" data-value="5">5</button>
+      <button type="button" data-value="6">6</button>
+      <button type="button" class="operator" data-value="*">×</button>
+
+      <button type="button" data-value="1">1</button>
+      <button type="button" data-value="2">2</button>
+      <button type="button" data-value="3">3</button>
+      <button type="button" class="operator" data-value="-">−</button>
+
+      <button type="button" class="zero" data-value="0">0</button>
+      <button type="button" data-value=".">.</button>
+      <button type="button" class="operator" data-value="+">+</button>
+
+      <button type="button" class="equals" data-action="calculate">=</button>
+    </div>
+
+    <p class="footer">You Make My Equations Feel Complete♡</p>
+  </main>
+</body>
+</html>
